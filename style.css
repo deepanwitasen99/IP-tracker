@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #30336b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.headline{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    color: snow
+}
+.main{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.ip_display{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: #7ed6df;
+}
+.loc_display{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color:  #7ed6df;
+}
+.geo_display{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color:  #7ed6df;
+}
+.time_display{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color:  #7ed6df;
+}
+.search{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    border: none;
+    background: #f9ca24;
+    color: snow;
+    padding: 1rem 1.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
